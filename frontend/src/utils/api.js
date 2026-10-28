@@ -2,7 +2,7 @@
  * Multi-Node API Client (Supports Direct Cloud and Edge Gateway Routing)
  */
 
-export const CLOUD_BASE_URL = 'http://localhost:5000';
+export const CLOUD_BASE_URL = 'http://localhost:5002';
 export const EDGE_BASE_URL = 'http://localhost:5001';
 
 // Default active route: 'EDGE' or 'CLOUD'

@@ -69,6 +69,13 @@
       "passwordHash": "$2a$10$03AumHunEgRxDcLh5iXIT.ObiN83YeAp85wipKIwl1Zkiw.5Ti8zG",
       "rsaPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1ATz8vf/V6+t4T7pP5jqBSm+uyIeyOE7t7ZHyHZAUtUxatjU6YeQ/0Cp2FcyG9TjcRZDilnH7R+fvCPw+95ngpv5UMJ5HLZcNEVl3WcVPWJVoSxCG9N2p42eNUq5AZVKv15wqAw0Qu8Z/6jFpZ/5CMNhnockYibYbDWDpusNQdCkt30n4EPC1LPzMI+uMTqJQgWC5Himchs8e9Eb62XSAd3CNKyo/Hvk/uXk6du+0eSMsEk6vQvnvaIcqpMrVCuLe2jy9r2V4uSkt/mbzt7NBp2LfHWFz9Zg4jfgpEHFSPg8trBcwttAjh598rVDe3Fo05sXepkZuIcy5xf1lunqVwIDAQAB",
       "createdAt": "2026-09-03T18:26:10.528Z"
+    },
+    {
+      "id": "db9d395d-e9a6-4ee1-959c-2ad0f489a935",
+      "username": "najeeb",
+      "passwordHash": "$2a$10$MnwL/mDWACJHmmToP28Xv.RETB8r6euUlFDPyO4K0ft73dOfvpYZa",
+      "rsaPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7+dNWVPGQMrGaBPbzmm7zJb21KjV1QVuwuYJ7SulVlDRte8eGzJU+lQ+q1HvNcjXj/83VunBRIMifOlzchxrV4fLvznr6R4+di6U2ZDCrOQCdUQ1QoMITQUGPE+H1qtPg2FDRXE4jiFMUnik99uy+tXLi96NEwJB+U6yvGocw4byGdqRUuS1q4IscMoimcjo/+6/FFWFkYBqBomHzQNJD+2geSzvw2E2RTncuBt1x5m8RVh8/zBV7VxD3Wp/fAbQfvshbqOuLDY9/CJxyV4Bj53P48tl1ys0GzJCdpxPNTw/FAseN2ILMhIbzMKF8dom2H2GpWVHlrpdbkUj98C5JQIDAQAB",
+      "createdAt": "2026-10-28T14:39:09.139Z"
     }
   ],
   "files": [
@@ -381,9 +388,178 @@
       },
       "createdAt": "2026-09-08T09:14:43.196Z",
       "updatedAt": "2026-09-08T09:14:43.196Z"
+    },
+    {
+      "id": "ba0295d1-d85c-4aa1-a51c-5887dc9e020a",
+      "storageFileName": "ba0295d1-d85c-4aa1-a51c-5887dc9e020a.enc",
+      "originalName": "3459-exam-application.pdf",
+      "mimeType": "application/pdf",
+      "sizeBytes": 65086,
+      "encryptedSizeBytes": 65102,
+      "ownerId": "db9d395d-e9a6-4ee1-959c-2ad0f489a935",
+      "ownerUsername": "najeeb",
+      "iv": "GKK8jmzehmsjFuKc",
+      "authTag": "",
+      "sha256Checksum": "2a37273b9de02e8b6989b2f1cdc1823e8d7efdd786569fcead5ca381706b1fd0",
+      "encryptedKeys": {
+        "db9d395d-e9a6-4ee1-959c-2ad0f489a935": "snOMsDynoQyf5k/DGprMS4kHH3RPCGRKYU6LbDkICcEtZRgGYJSL9ltcWtjtE2PG4Z3xv/TqgVoKEtP7v/HRT54SLZ63fI2CdYwWJ9F7rSKGgMmTgbo6I8U0XMR7S94UoZOWBUcyGk7uuYm+Yna5trB+6gMSzV9C0Y4RggdhLf4MaWcxjWLueS8DvDU5njohE5Mf+Z1Hj8Pj9eaHmHJ1GiHaT1ovKNMuFbTDQIC7L7EJn2Qr3+93hx4y+890dPIKfPGlLvc4YoGbF+nIanW6QFtrczNE7Lo3sJRd9pSOVU47H6jEtQ0emOmqL1Jo8JxthTOV3B7bz1FAfTiXR71zmA=="
+      },
+      "permissions": {
+        "db9d395d-e9a6-4ee1-959c-2ad0f489a935": {
+          "canRead": true,
+          "canDownload": true,
+          "isOwner": true,
+          "grantedAt": "2026-10-28T14:41:41.601Z"
+        }
+      },
+      "createdAt": "2026-10-28T14:41:41.601Z",
+      "updatedAt": "2026-10-28T14:41:41.601Z"
     }
   ],
   "auditLogs": [
+    {
+      "id": "log_1793198754574_xy5wj5elf",
+      "timestamp": "2026-10-28T14:45:54.574Z",
+      "eventType": "FILE_DOWNLOAD",
+      "userId": "db9d395d-e9a6-4ee1-959c-2ad0f489a935",
+      "username": "najeeb",
+      "fileId": "ba0295d1-d85c-4aa1-a51c-5887dc9e020a",
+      "fileName": "3459-exam-application.pdf",
+      "ip": "::1",
+      "route": "CLOUD_DIRECT",
+      "details": "Encrypted file chunk dispatched to client. Size: 65102 bytes.",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1793198731750_kzptgursn",
+      "timestamp": "2026-10-28T14:45:31.750Z",
+      "eventType": "FILE_TAMPER_SIMULATED",
+      "userId": "db9d395d-e9a6-4ee1-959c-2ad0f489a935",
+      "username": "najeeb",
+      "fileId": "ba0295d1-d85c-4aa1-a51c-5887dc9e020a",
+      "fileName": "3459-exam-application.pdf",
+      "ip": "::1",
+      "route": "CLOUD_DIRECT",
+      "details": "Simulated unauthorized bit-flip tampering on raw ciphertext chunk to test SHA-256 / AES-GCM integrity defense.",
+      "status": "WARNING"
+    },
+    {
+      "id": "log_1793198535739_xv7360mp9",
+      "timestamp": "2026-10-28T14:42:15.739Z",
+      "eventType": "FILE_DOWNLOAD",
+      "userId": "db9d395d-e9a6-4ee1-959c-2ad0f489a935",
+      "username": "najeeb",
+      "fileId": "ba0295d1-d85c-4aa1-a51c-5887dc9e020a",
+      "fileName": "3459-exam-application.pdf",
+      "ip": "::1",
+      "route": "EDGE_GATEWAY",
+      "details": "Encrypted file chunk dispatched to client. Size: 65102 bytes.",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1793198501603_ezttva7fy",
+      "timestamp": "2026-10-28T14:41:41.603Z",
+      "eventType": "FILE_UPLOAD",
+      "userId": "db9d395d-e9a6-4ee1-959c-2ad0f489a935",
+      "username": "najeeb",
+      "fileId": "ba0295d1-d85c-4aa1-a51c-5887dc9e020a",
+      "fileName": "3459-exam-application.pdf",
+      "ip": "::1",
+      "route": "EDGE_GATEWAY",
+      "details": "File encrypted with AES-256-GCM & RSA key wrapping. SHA-256: 2a37273b9de0... Size: 65086 bytes",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1793198493704_igtjb3i0j",
+      "timestamp": "2026-10-28T14:41:33.704Z",
+      "eventType": "FILE_DELETE",
+      "userId": "db9d395d-e9a6-4ee1-959c-2ad0f489a935",
+      "username": "najeeb",
+      "fileId": "6600c594-96ed-4959-a23b-795335b58cad",
+      "fileName": "160-exam-application.pdf",
+      "ip": "::1",
+      "route": "CLOUD_DIRECT",
+      "details": "Encrypted file payload and metadata permanently purged from Cloud storage.",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1793198491373_5gsm23vxj",
+      "timestamp": "2026-10-28T14:41:31.373Z",
+      "eventType": "FILE_DELETE",
+      "userId": "db9d395d-e9a6-4ee1-959c-2ad0f489a935",
+      "username": "najeeb",
+      "fileId": "afccbfaf-0a8c-4caa-8fea-1fc7bf2120f2",
+      "fileName": "7th Sem Calendar of Events 2026-27 Odd_260708_110816.pdf",
+      "ip": "::1",
+      "route": "CLOUD_DIRECT",
+      "details": "Encrypted file payload and metadata permanently purged from Cloud storage.",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1793198420154_j8bojacfa",
+      "timestamp": "2026-10-28T14:40:20.154Z",
+      "eventType": "FILE_UPLOAD",
+      "userId": "db9d395d-e9a6-4ee1-959c-2ad0f489a935",
+      "username": "najeeb",
+      "fileId": "6600c594-96ed-4959-a23b-795335b58cad",
+      "fileName": "160-exam-application.pdf",
+      "ip": "::1",
+      "route": "EDGE_GATEWAY",
+      "details": "File encrypted with AES-256-GCM & RSA key wrapping. SHA-256: db89be07b8cb... Size: 75067 bytes",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1793198412520_e9bw1n2cg",
+      "timestamp": "2026-10-28T14:40:12.520Z",
+      "eventType": "FILE_DOWNLOAD",
+      "userId": "db9d395d-e9a6-4ee1-959c-2ad0f489a935",
+      "username": "najeeb",
+      "fileId": "afccbfaf-0a8c-4caa-8fea-1fc7bf2120f2",
+      "fileName": "7th Sem Calendar of Events 2026-27 Odd_260708_110816.pdf",
+      "ip": "::1",
+      "route": "EDGE_GATEWAY",
+      "details": "Encrypted file chunk dispatched to client. Size: 546626 bytes.",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1793198397412_dw2x6qe53",
+      "timestamp": "2026-10-28T14:39:57.412Z",
+      "eventType": "FILE_UPLOAD",
+      "userId": "db9d395d-e9a6-4ee1-959c-2ad0f489a935",
+      "username": "najeeb",
+      "fileId": "afccbfaf-0a8c-4caa-8fea-1fc7bf2120f2",
+      "fileName": "7th Sem Calendar of Events 2026-27 Odd_260708_110816.pdf",
+      "ip": "::1",
+      "route": "EDGE_GATEWAY",
+      "details": "File encrypted with AES-256-GCM & RSA key wrapping. SHA-256: 59392279e19b... Size: 546610 bytes",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1793198349141_a6jrj47f5",
+      "timestamp": "2026-10-28T14:39:09.141Z",
+      "eventType": "USER_REGISTER",
+      "userId": "db9d395d-e9a6-4ee1-959c-2ad0f489a935",
+      "username": "najeeb",
+      "fileId": null,
+      "fileName": null,
+      "ip": "::1",
+      "route": "CLOUD_DIRECT",
+      "details": "New user registered with RSA public key generated at client",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1793198280981_y675uh5qt",
+      "timestamp": "2026-10-28T14:38:00.981Z",
+      "eventType": "LOGIN_FAILED",
+      "userId": "anonymous",
+      "username": "alice",
+      "fileId": null,
+      "fileName": null,
+      "ip": "::1",
+      "route": "CLOUD_DIRECT",
+      "details": "Failed login attempt - user not found",
+      "status": "FAILED"
+    },
     {
       "id": "log_1788858902439_3lqlw74n4",
       "timestamp": "2026-09-08T09:15:02.439Z",
@@ -2050,9 +2226,9 @@
     }
   ],
   "metrics": {
-    "totalUploads": 20,
-    "totalDownloads": 25,
-    "bytesTransferred": 12004344,
-    "tamperAttemptsDetected": 5
+    "totalUploads": 23,
+    "totalDownloads": 28,
+    "bytesTransferred": 13367985,
+    "tamperAttemptsDetected": 6
   }
 }
